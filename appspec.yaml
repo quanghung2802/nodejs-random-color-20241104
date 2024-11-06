@@ -11,3 +11,4 @@ Resources:
         LoadBalancerInfo: 
           ContainerName: "nodejs-container" # Specify the name of your Amazon ECS application's container
           ContainerPort: "3000" # Specify the port for your container where traffic reroutes 
+
