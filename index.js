@@ -19,12 +19,12 @@ app.get('/learning', (req, res) => {
 
 // Add a GET method for /service-a path
 app.get('/service-a', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/service_a.html'));
+    res.redirect('/index.html');
 });
 
 // Add a GET method for /service-b path
 app.get('/service-b', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/service_b.html'));
+    res.redirect('/index.html');
 });
 
 // Generate a random color
